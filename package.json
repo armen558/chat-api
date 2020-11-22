@@ -5,7 +5,7 @@
   "main": "data.js",
   "scripts": {
     "test": "mocha --exit || true",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",

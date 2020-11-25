@@ -2,3 +2,9 @@ language: node_js
 node_js:
   - "12"
 os: osx
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: "IPe6ltHMi9K9ccLf/XujvCkcJPbTiwKWdc3kcvsht0TBMyTTzjSXZwvh5W/2WT1612uyfln8EL/3EHvw3oyOnscNGpxcjgqk3rQYuphP7qGOv3GC9R1ba6SDf0DZz3iYm3TKSy40K0sn7QJMDu2wEFANvSWSeRr/6WFq6cqv4LyuyXQ7QFB4hAhex0T8AnIUOvJSjcQU1OSHpdB2N2u/lJwCXdQM8h+XjuSmQmuwu73bHyfoPqKsHYAEhuCWj9aGG67NLqKqWTsEFpyJRH9OLr1wkRaScxVit5hDpCVmgPll22BzEVp4pgfigAFlxahZM0vekWQb6WGRFtrz4uqhZqUqFzvAlsFOi06HZAYT6XQYJV6xRGe0p8qhVwcofSLdN+/jz6PuAqVs6LFRBXG6nnYgJzFmvpdsgTXbFxedTdnBBIaeGaHSxz4PQpJ1NzQ/MwwSVRo8TxvCQYV9SxWB7U4UV8FDkK1cpFnjgglECV+Y8tC3cgg4wYH1c0dw7EwVEE7UjpzghkF1g4i8fE0SYJ6Brtbdbx6LaTOtT+mZBqloqfWC3+R7X0wKoqJ6T8e0VlhQrIOXg9NiGIDMCWB68FroCng9DpG+DQsBWpmrAOoxrOGM5Yy8+d5g03/uOaioBJftsk1qciLrFmGW/M0vV52ScUin915zbrGFrP2yWTo="
+    app: "chat-node-pa"

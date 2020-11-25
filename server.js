@@ -4,8 +4,6 @@ const express = require('express');
 const morgan = require('morgan');
 require('dotenv').config();
 
-const accessTokenSecret = 'mysecretaccesstoken';
-
 const routes = require('./routes/routes');
 
 const app = express();

@@ -5,5 +5,4 @@ node_js:
 deploy:
   - provider: heroku
     app: "chat-node-pa"
-    api_key:
-      secure: "b823308c-a0cd-4a1c-9786-c7a81f1cc802"
+    api_key: $HEROKU_AUTH_TOKEN
